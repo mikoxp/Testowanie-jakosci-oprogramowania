@@ -1,0 +1,18 @@
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git remote -v
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git remote add upstream https://github.com/sebbed/Testowaniegit.git
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git remote -v
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git status
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git checkout -b nowy
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git add .
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git commit -m "nowy"
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git push origin nowy
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git fetch upstream
+git merge upstream/master
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git mergetool  <+jak zainstalowany
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git add .
+git commit -m "nowy 2"
+[nowy ff45ccc] nowy 2
+mikoxp@mikoxp:~/Bootstrap traning/Testowaniegit$ git push origin nowy
